@@ -782,3 +782,124 @@ body {
   font-size: 20px;
   max-width: 100%;
 }
+
+@media (max-width: 768px) {
+
+.header {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.navbar {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav-auth {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.video .content h1 {
+  font-size: 2.5em;
+}
+
+.video .content h2 {
+  font-size: 1.8em;
+}
+
+.video .content h3 {
+  font-size: 1em;
+}
+
+.about-second {
+  font-size: 32px;
+}
+
+.about-right p {
+  font-size: 16px;
+}
+
+.quote {
+  padding: 60px 20px;
+}
+
+.quote-one {
+  font-size: 1.4em;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.gov-banner {
+  padding: 3rem 1.5rem;
+}
+
+.gov-banner h1 {
+  font-size: 3rem;
+}
+
+.gov-banner p {
+  font-size: 16px;
+}
+
+.gov-section {
+  padding: 3rem 1.5rem;
+}
+
+.gov-section h2 {
+  font-size: 2rem;
+}
+
+.gov-section p {
+  font-size: 1rem;
+}
+
+.facts {
+  grid-template-columns: 1fr;
+}
+
+.town-card img {
+  height: 250px;
+}
+
+.attraction img {
+  height: 200px;
+}
+
+.travel-item {
+  flex-direction: column;
+}
+
+.navigation {
+  flex-direction: column;
+}
+
+.gov-footer {
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.main-table,
+.main-table tr,
+.main-table td {
+  display: block;
+  width: 100%;
+}
+
+.city, .city2 {
+  width: 100%;
+}
+
+.city img, .city2 img {
+  height: 250px;
+}
+
+.faq {
+  width: 100%;
+}
+
+}
